@@ -1,5 +1,3 @@
-# React + Vite
-
 # React Router Practice
 
 This project demonstrates the implementation of client-side routing using React Router in a React application. It includes multiple pages and navigation between them without reloading the browser.
