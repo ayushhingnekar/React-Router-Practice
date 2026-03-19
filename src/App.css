@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: wheat;
+}
+
+.Navbar-links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.Navbar-links a {
+    text-decoration: none;
+    margin: 15px;
+    padding-top: 12px;
+    color: white;
+    background-color: rgb(5, 44, 129);
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    border-radius: 28px;
+}
+
+.Navbar-links a:hover {
+    background-color: rgb(3, 32, 95);
+}
+
+.about-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.PageNotFound {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+
+.Users-list {
+    text-align: center;
+    margin: 30px;
+}
+
+.Users-list a {
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.Users-list a:hover {
+    color: rgb(236, 17, 17);
+}
+
+.active {
+    font-weight: bold;
+}
