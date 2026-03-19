@@ -1,20 +1,29 @@
-<<<<<<< HEAD
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Router Practice
 
-Currently, two official plugins are available:
+This project demonstrates the implementation of client-side routing using React Router in a React application. It includes multiple pages and navigation between them without reloading the browser.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The goal of this project is to understand how routing works in React and how different components can be rendered dynamically based on the URL.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Client-side routing using React Router
+* Multiple page navigation
+* Dynamic component rendering
+* Simple and clean UI
+* Responsive layout
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# React-Router-Practice
->>>>>>> 1b9e23a71f7c613a6eb1882e68094bac64c9061a
+* React.js
+* React Router
+* JavaScript (ES6)
+* HTML5
+* CSS3
+
+## Project Structure
+
+* `src/components` – reusable components
+* `src/components/pages` – different routed pages
+* `App.js` – main routing configuration
