@@ -1,8 +1,8 @@
 import { Link, useParams } from 'react-router-dom'
 
 function UsersDetail() {
-    const paramsData = useParams()
-    const paramsAge = useParams()                                 // Used for passing data
+    const paramsData = useParams()                              // Used for passing data
+    const paramsAge = useParams()
     
     return (
         <div>

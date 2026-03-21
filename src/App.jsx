@@ -32,7 +32,7 @@ function App() {
 
         <Route path='/contact' element={<Contact />} />
         <Route path='/users-list' element={<UsersList />} />
-        <Route path='/users-list/:id/:age?' element={<UsersDetail />} />              {/* ':' used for Dynamic Routing */}
+        <Route path='/users-list/:id/:age?' element={<UsersDetail />} />         {/* ':' used for Dynamic Routing */}
 
         <Route path='/*' element={<PageNotFound />} />
 
